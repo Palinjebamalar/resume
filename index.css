@@ -1,0 +1,300 @@
+body {
+  background-color: #B0E0E6;
+
+}
+hr
+{
+  border: double 5px teal;
+  width: 400px;
+}
+.heading
+{
+  text-align: left;
+  text-decoration: underline;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.image {
+  float: right;
+  padding: 10px;
+  width: 600px;
+}
+
+.overline {
+  text-decoration: overline;
+}
+.underline {
+  text-decoration: underline;
+}
+/*Home*/
+.home
+{
+    display: flex;
+    font-family: forte;
+}
+.home h1
+{
+  font-size: 45px;
+}
+.home h3
+{
+  font-size: 25px;
+}
+.home h5
+{
+  font-size: 20px;
+}
+.home img
+{
+  width: 550px;
+  height: 600px;
+}
+.container
+{
+  text-align: center;
+  background-color: snow;
+  color: teal;
+  margin-left: -55px;
+  width: 500px;
+  height: 600px;
+}
+/*About Me*/
+.about h1
+{
+  padding-top: 50px;
+}
+.aboutParagraph
+{
+   text-align: left;
+   margin: 10px;
+}
+.hobby
+{
+  background-color: snow;
+  width: 1000px;
+}
+.hobby h2
+{
+  background-color: #20B2AA;
+  color: snow;
+  padding-bottom: 10px;
+  width: 170px;
+}
+.interest
+{
+  background-color: #20B2AA;
+  color: snow;
+}
+
+/*Qualification*/
+.qualification
+{
+  margin: 10px;
+}
+
+.qualification table tr th
+{
+  border: dotted 5px teal;
+
+}
+.qualification table tr td
+{
+  border: double 3px teal;
+  font-size: 16px;
+}
+.education h1
+{
+  background-color: #20B2AA;
+  color: snow;
+  padding-bottom: 10px;
+  width: 270px;
+}
+.education {
+    background-color: snow;
+    color: black;
+    margin-top: 86px;
+}
+
+
+/*Skills*/
+.skills
+{
+  margin-left: 78px;
+  margin-top: 78px;
+}
+
+.skills table tr th
+{
+  border: 5px double black;
+ background-color: #20B2AA;
+ color: white;
+ font-family: monospace;
+ font-size: 20px;
+}
+.skill h1
+{
+  background-color: #20B2AA;
+  color: snow;
+  padding-bottom: 10px;
+  width: 180px;
+  font-family: monospace;
+  font-size: 25px;
+}
+.skill
+{
+  background-color: snow;
+  color: black;
+  width:500px;
+}
+.skillsparagraph
+{
+  background-color: snow;
+  border: 5px dotted teal;
+  font-family: chiller;
+  font-size: 35px;
+  width: 1000px;
+  margin-left: 85px;
+}
+
+.photo
+ {
+  height: 200px;
+  width: 150px;
+  border-radius: 50%;
+  padding: 50px;
+  padding-bottom: 10px;
+}
+
+/*Contact*/
+
+.contact h1
+{
+  background-color: #20B2AA;
+  color: snow;
+  padding: 5px;
+  width: 180px;
+  font-family: monospace;
+  font-size: 25px;
+}
+.contact
+{
+  background-color: snow;
+  color: black;
+  width: 500px;
+  text-align: left;
+  margin-left: 78px;
+}
+.contact table
+{
+  margin: 10px;
+  padding: 20px;
+}
+.contact table tr th
+{
+  border: double 2px teal;
+  padding: 3px;
+}
+.message
+{
+  background-color: snow;
+  width: 500px;
+  margin: 78px;
+}
+.message input
+{
+  border: none;
+  background-color: #AFEEEE;
+  padding: 15px;
+  border-radius: 3px;
+  margin: 10px 10px;
+}
+.message button
+{
+  margin-bottom: 10px;
+  background-color: teal;
+  color: snow;
+  padding: 5px;
+  font-family: cursive;
+  border-radius: 5px;
+}
+.icon
+{
+  width: 40px;
+  height: 40px;
+}
+
+/*Navigation*/
+
+nav {
+  background-color: snow;
+  display: block;
+  padding: 20px;
+  text-align: left;
+  width: 210px;
+}
+
+nav a {
+  color: black;
+  margin: 0 1em;
+  text-decoration: none;
+
+}
+nav a:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+  color: teal;
+}
+nav :active
+{
+  background-color: #008080;
+}
+
+.scrolling-box {
+  background-color: #40E0D0;
+  display: block;
+  height: 750px;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  text-align: center;
+  width: 1190px;
+  float: right;
+}
+
+section {
+
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.navi {
+  text-align: justify;
+  margin-left: 25px;
+  width: 16%;
+  float: left;
+  margin-right: 20%;
+}
+aside{
+  display: block;
+  background-color: teal;
+  border: dotted black;
+  float: left;
+  height: 740px;
+  width: 300px;
+}
+
+a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+li {
+  list-style: none;
+}
+.paragraph
+{
+  color:white;
+  margin:20px;
+}
